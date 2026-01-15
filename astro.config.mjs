@@ -4,10 +4,12 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://phxn7xm.github.io',
+  	base: '/notas-astro',
 	integrations: [
 		starlight({
 			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/PHXN7XM' }],
 			sidebar: [
 				{
 					label: 'Guides',
