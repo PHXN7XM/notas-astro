@@ -6,6 +6,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://PHXN7XM.github.io',
   	base: '/notas-astro',
+	trailingSlash: 'always',
 	integrations: [
 		starlight({
 			title: 'My Docs',
